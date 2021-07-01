@@ -207,8 +207,7 @@ sup {
 }
 
 a {
-  color: #0d6efd;
-  text-decoration: underline;
+  color: #000;
 }
 a:hover {
   color: #0a58ca;
@@ -2963,32 +2962,31 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #f9b22a;
+  border-color: #f9b22a;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #f9b22a;
+  border-color: #f9b22a;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
-  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+  background-color: #f9b22a;
+  border-color: #f9b22a;
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0a58ca;
-  border-color: #0a53be;
+  background-color: #f9b22a;
+  border-color: #f9b22a;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #f9b22a;
+  border-color: #f9b22a;
 }
 
 .btn-secondary {
@@ -7350,7 +7348,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #0d6efd !important;
+  color: #fab22a !important;
 }
 
 .text-secondary {
@@ -10866,7 +10864,7 @@ textarea.form-control-lg {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
+  background-color: #fab22a;
   background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
@@ -10875,7 +10873,7 @@ header.masthead {
 header.masthead:before {
   content: "";
   position: absolute;
-  background-color: #1c375e;
+  background-color: #fab22a;
   height: 100%;
   width: 100%;
   top: 0;
